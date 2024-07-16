@@ -65,11 +65,9 @@ do { \
 
 // TODO tie this up with PICO_BOARD defines in the main SDK
 
-#ifdef DEBUG_ON_PICO 
 #include "board_pico_config.h"
-#else
-#include "board_debug_probe_config.h"
-#endif
+
+
 //#include "board_example_config.h"
 
 // Add the configuration to binary information
