@@ -1,5 +1,5 @@
-CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/JTAG_DP.c.obj: \
- /home/teja/pico/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/JTAG_DP.c \
+CMakeFiles/debugprobe.dir/src/DAP_vendor.c.obj: \
+ /home/teja/pico/debugprobe/src/DAP_vendor.c \
  /home/teja/pico/debugprobe/include/DAP_config.h \
  /home/teja/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /home/teja/pico/pico-sdk/src/common/pico_base/include/pico.h \
@@ -67,4 +67,4 @@ CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/JTAG_DP.c.obj: \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
  /home/teja/pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
- /home/teja/pico/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Include/DAP.h
+ /home/teja/pico/debugprobe/include/DAP.h

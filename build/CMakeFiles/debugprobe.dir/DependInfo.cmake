@@ -76,7 +76,6 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/home/teja/pico/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Include"
   "/home/teja/pico/debugprobe/CMSIS_5/CMSIS/Core/Include"
   "/home/teja/pico/debugprobe/include"
   "."
@@ -134,10 +133,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/teja/pico/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c" "CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj" "gcc" "CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj.d"
-  "/home/teja/pico/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c" "CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj" "gcc" "CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj.d"
-  "/home/teja/pico/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/JTAG_DP.c" "CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/JTAG_DP.c.obj" "gcc" "CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/JTAG_DP.c.obj.d"
-  "/home/teja/pico/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c" "CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj" "gcc" "CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj.d"
   "/home/teja/pico/debugprobe/freertos/croutine.c" "CMakeFiles/debugprobe.dir/freertos/croutine.c.obj" "gcc" "CMakeFiles/debugprobe.dir/freertos/croutine.c.obj.d"
   "/home/teja/pico/debugprobe/freertos/event_groups.c" "CMakeFiles/debugprobe.dir/freertos/event_groups.c.obj" "gcc" "CMakeFiles/debugprobe.dir/freertos/event_groups.c.obj.d"
   "/home/teja/pico/debugprobe/freertos/list.c" "CMakeFiles/debugprobe.dir/freertos/list.c.obj" "gcc" "CMakeFiles/debugprobe.dir/freertos/list.c.obj.d"
@@ -206,6 +201,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
+  "/home/teja/pico/debugprobe/src/DAP.c" "CMakeFiles/debugprobe.dir/src/DAP.c.obj" "gcc" "CMakeFiles/debugprobe.dir/src/DAP.c.obj.d"
+  "/home/teja/pico/debugprobe/src/DAP_vendor.c" "CMakeFiles/debugprobe.dir/src/DAP_vendor.c.obj" "gcc" "CMakeFiles/debugprobe.dir/src/DAP_vendor.c.obj.d"
+  "/home/teja/pico/debugprobe/src/JTAG_DP.c" "CMakeFiles/debugprobe.dir/src/JTAG_DP.c.obj" "gcc" "CMakeFiles/debugprobe.dir/src/JTAG_DP.c.obj.d"
+  "/home/teja/pico/debugprobe/src/SWO.c" "CMakeFiles/debugprobe.dir/src/SWO.c.obj" "gcc" "CMakeFiles/debugprobe.dir/src/SWO.c.obj.d"
   "/home/teja/pico/debugprobe/src/cdc_uart.c" "CMakeFiles/debugprobe.dir/src/cdc_uart.c.obj" "gcc" "CMakeFiles/debugprobe.dir/src/cdc_uart.c.obj.d"
   "/home/teja/pico/debugprobe/src/get_serial.c" "CMakeFiles/debugprobe.dir/src/get_serial.c.obj" "gcc" "CMakeFiles/debugprobe.dir/src/get_serial.c.obj.d"
   "/home/teja/pico/debugprobe/src/led.c" "CMakeFiles/debugprobe.dir/src/led.c.obj" "gcc" "CMakeFiles/debugprobe.dir/src/led.c.obj.d"

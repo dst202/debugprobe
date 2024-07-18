@@ -125,27 +125,27 @@ Discarded input sections
                 0x00000000      0x1f0 CMakeFiles/debugprobe.dir/src/tusb_edpt_handler.c.obj
  .data.dap_cmd_string
                 0x00000000      0x200 CMakeFiles/debugprobe.dir/src/tusb_edpt_handler.c.obj
- .text          0x00000000        0x0 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
- .data          0x00000000        0x0 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
- .bss           0x00000000        0x0 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
- .text.Delayms  0x00000000       0x14 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
+ .text          0x00000000        0x0 CMakeFiles/debugprobe.dir/src/DAP.c.obj
+ .data          0x00000000        0x0 CMakeFiles/debugprobe.dir/src/DAP.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/debugprobe.dir/src/DAP.c.obj
+ .text.Delayms  0x00000000       0x14 CMakeFiles/debugprobe.dir/src/DAP.c.obj
  .text.DAP_ProcessVendorCommand
-                0x00000000        0xc CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
- .text          0x00000000        0x0 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/JTAG_DP.c.obj
- .data          0x00000000        0x0 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/JTAG_DP.c.obj
- .bss           0x00000000        0x0 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/JTAG_DP.c.obj
- .comment       0x00000000       0x27 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/JTAG_DP.c.obj
+                0x00000000        0xc CMakeFiles/debugprobe.dir/src/DAP.c.obj
+ .text          0x00000000        0x0 CMakeFiles/debugprobe.dir/src/JTAG_DP.c.obj
+ .data          0x00000000        0x0 CMakeFiles/debugprobe.dir/src/JTAG_DP.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/debugprobe.dir/src/JTAG_DP.c.obj
+ .comment       0x00000000       0x27 CMakeFiles/debugprobe.dir/src/JTAG_DP.c.obj
  .ARM.attributes
-                0x00000000       0x2c CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/JTAG_DP.c.obj
- .text          0x00000000        0x0 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj
- .data          0x00000000        0x0 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj
- .bss           0x00000000        0x0 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj
- .text          0x00000000        0x0 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj
- .data          0x00000000        0x0 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj
- .bss           0x00000000        0x0 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj
- .comment       0x00000000       0x27 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj
+                0x00000000       0x2c CMakeFiles/debugprobe.dir/src/JTAG_DP.c.obj
+ .text          0x00000000        0x0 CMakeFiles/debugprobe.dir/src/DAP_vendor.c.obj
+ .data          0x00000000        0x0 CMakeFiles/debugprobe.dir/src/DAP_vendor.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/debugprobe.dir/src/DAP_vendor.c.obj
+ .text          0x00000000        0x0 CMakeFiles/debugprobe.dir/src/SWO.c.obj
+ .data          0x00000000        0x0 CMakeFiles/debugprobe.dir/src/SWO.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/debugprobe.dir/src/SWO.c.obj
+ .comment       0x00000000       0x27 CMakeFiles/debugprobe.dir/src/SWO.c.obj
  .ARM.attributes
-                0x00000000       0x2c CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj
+                0x00000000       0x2c CMakeFiles/debugprobe.dir/src/SWO.c.obj
  .text          0x00000000        0x0 CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .data          0x00000000        0x0 CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .bss           0x00000000        0x0 CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
@@ -1651,9 +1651,9 @@ Discarded input sections
                 0x00000000        0xc CMakeFiles/debugprobe.dir/freertos/portable/MemMang/heap_1.c.obj
  .text.xPortGetFreeHeapSize
                 0x00000000       0x14 CMakeFiles/debugprobe.dir/freertos/portable/MemMang/heap_1.c.obj
- .text          0x00000000        0x0 /tmp/ccHOGdeB.o
- .data          0x00000000        0x0 /tmp/ccHOGdeB.o
- .bss           0x00000000        0x0 /tmp/ccHOGdeB.o
+ .text          0x00000000        0x0 /tmp/ccjkmQhU.o
+ .data          0x00000000        0x0 /tmp/ccjkmQhU.o
+ .bss           0x00000000        0x0 /tmp/ccjkmQhU.o
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_paritysi2.o)
@@ -2066,7 +2066,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /tmp/ccHOGdeB.o
+ .boot2         0x10000000      0x100 /tmp/ccjkmQhU.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2318,16 +2318,16 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x20001014        0xc CMakeFiles/debugprobe.dir/src/tusb_edpt_handler.c.obj
                 0x20001014                usbd_app_driver_get_cb
  .text.DAP_ProcessCommand
-                0x20001020      0xba8 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
+                0x20001020      0xba8 CMakeFiles/debugprobe.dir/src/DAP.c.obj
                 0x20001020                DAP_ProcessCommand
  .text.DAP_ExecuteCommand
-                0x20001bc8       0x44 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
+                0x20001bc8       0x44 CMakeFiles/debugprobe.dir/src/DAP.c.obj
                 0x20001bc8                DAP_ExecuteCommand
  .text.DAP_Setup
-                0x20001c0c       0x3c CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
+                0x20001c0c       0x3c CMakeFiles/debugprobe.dir/src/DAP.c.obj
                 0x20001c0c                DAP_Setup
  .text.DAP_ProcessVendorCommand
-                0x20001c48        0xc CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj
+                0x20001c48        0xc CMakeFiles/debugprobe.dir/src/DAP_vendor.c.obj
                 0x20001c48                DAP_ProcessVendorCommand
  .text.lock_init
                 0x20001c54       0x10 CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -3182,9 +3182,9 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x20009ce4       0x18 CMakeFiles/debugprobe.dir/src/tusb_edpt_handler.c.obj
                 0x20009ce4                _dap_edpt_driver
  .rodata.DAP_ProcessCommand.str1.4
-                0x20009cfc        0x6 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
+                0x20009cfc        0x6 CMakeFiles/debugprobe.dir/src/DAP.c.obj
  .rodata.DAP_ProcessCommand
-                0x20009cfc       0x78 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
+                0x20009cfc       0x78 CMakeFiles/debugprobe.dir/src/DAP.c.obj
  .rodata.hardware_alarm_claim.str1.4
                 0x20009d74       0x22 CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.spin_lock_claim_unused.str1.4
@@ -3378,7 +3378,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x2000a598       0x40 CMakeFiles/debugprobe.dir/src/tusb_edpt_handler.c.obj
  .bss.DAPResponseBuffer
                 0x2000a5d8       0x40 CMakeFiles/debugprobe.dir/src/tusb_edpt_handler.c.obj
- .bss.DAP_Data  0x2000a618       0x1c CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
+ .bss.DAP_Data  0x2000a618       0x1c CMakeFiles/debugprobe.dir/src/DAP.c.obj
                 0x2000a618                DAP_Data
  .bss.TxDataBuffer
                 0x2000a634       0x40 CMakeFiles/debugprobe.dir/src/main.c.obj
@@ -3566,7 +3566,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  .bss.xYieldPending
                 0x20020594        0x4 CMakeFiles/debugprobe.dir/freertos/tasks.c.obj
  .bss.DAP_TransferAbort
-                0x20020598        0x1 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
+                0x20020598        0x1 CMakeFiles/debugprobe.dir/src/DAP.c.obj
                 0x20020598                DAP_TransferAbort
  .bss._app_driver_count
                 0x20020599        0x1 CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
@@ -3625,10 +3625,10 @@ LOAD CMakeFiles/debugprobe.dir/src/cdc_uart.c.obj
 LOAD CMakeFiles/debugprobe.dir/src/get_serial.c.obj
 LOAD CMakeFiles/debugprobe.dir/src/sw_dp_pio.c.obj
 LOAD CMakeFiles/debugprobe.dir/src/tusb_edpt_handler.c.obj
-LOAD CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
-LOAD CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/JTAG_DP.c.obj
-LOAD CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj
-LOAD CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c.obj
+LOAD CMakeFiles/debugprobe.dir/src/DAP.c.obj
+LOAD CMakeFiles/debugprobe.dir/src/JTAG_DP.c.obj
+LOAD CMakeFiles/debugprobe.dir/src/DAP_vendor.c.obj
+LOAD CMakeFiles/debugprobe.dir/src/SWO.c.obj
 LOAD CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 LOAD CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 LOAD CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -3709,7 +3709,7 @@ LOAD CMakeFiles/debugprobe.dir/freertos/tasks.c.obj
 LOAD CMakeFiles/debugprobe.dir/freertos/timers.c.obj
 LOAD CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 LOAD CMakeFiles/debugprobe.dir/freertos/portable/MemMang/heap_1.c.obj
-LOAD /tmp/ccHOGdeB.o
+LOAD /tmp/ccjkmQhU.o
 LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3751,9 +3751,9 @@ LOAD linker stubs
  .ARM.attributes
                 0x000001aa       0x2c CMakeFiles/debugprobe.dir/src/tusb_edpt_handler.c.obj
  .ARM.attributes
-                0x000001d6       0x2c CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
+                0x000001d6       0x2c CMakeFiles/debugprobe.dir/src/DAP.c.obj
  .ARM.attributes
-                0x00000202       0x2c CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj
+                0x00000202       0x2c CMakeFiles/debugprobe.dir/src/DAP_vendor.c.obj
  .ARM.attributes
                 0x0000022e       0x2c CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .ARM.attributes
@@ -3871,7 +3871,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000b96       0x2c CMakeFiles/debugprobe.dir/freertos/portable/MemMang/heap_1.c.obj
  .ARM.attributes
-                0x00000bc2       0x22 /tmp/ccHOGdeB.o
+                0x00000bc2       0x22 /tmp/ccjkmQhU.o
  .ARM.attributes
                 0x00000be4       0x1e /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -3901,8 +3901,8 @@ LOAD linker stubs
  .comment       0x00000026       0x27 CMakeFiles/debugprobe.dir/src/get_serial.c.obj
  .comment       0x00000026       0x27 CMakeFiles/debugprobe.dir/src/sw_dp_pio.c.obj
  .comment       0x00000026       0x27 CMakeFiles/debugprobe.dir/src/tusb_edpt_handler.c.obj
- .comment       0x00000026       0x27 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c.obj
- .comment       0x00000026       0x27 CMakeFiles/debugprobe.dir/CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c.obj
+ .comment       0x00000026       0x27 CMakeFiles/debugprobe.dir/src/DAP.c.obj
+ .comment       0x00000026       0x27 CMakeFiles/debugprobe.dir/src/DAP_vendor.c.obj
  .comment       0x00000026       0x27 CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .comment       0x00000026       0x27 CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
  .comment       0x00000026       0x27 CMakeFiles/debugprobe.dir/home/teja/pico/pico-sdk/src/common/pico_sync/mutex.c.obj

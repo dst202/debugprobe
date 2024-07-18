@@ -112,4 +112,4 @@ CMakeFiles/debugprobe.dir/src/main.c.obj: \
  /home/teja/pico/debugprobe/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h \
  /home/teja/pico/debugprobe/src/probe_config.h \
  /home/teja/pico/debugprobe/src/probe.h \
- /home/teja/pico/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Include/DAP.h
+ /home/teja/pico/debugprobe/include/DAP.h

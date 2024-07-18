@@ -19,18 +19,19 @@ add_executable(debugprobe
         src/get_serial.c
         src/sw_dp_pio.c
         src/tusb_edpt_handler.c
+
+        src/DAP.c
+        src/JTAG_DP.c
+        src/DAP_vendor.c
+        src/SWO.c
 )
 
 target_sources(debugprobe PRIVATE
-        CMSIS_5/CMSIS/DAP/Firmware/Source/DAP.c
-        CMSIS_5/CMSIS/DAP/Firmware/Source/JTAG_DP.c
-        CMSIS_5/CMSIS/DAP/Firmware/Source/DAP_vendor.c
-        CMSIS_5/CMSIS/DAP/Firmware/Source/SWO.c
-        #CMSIS_5/CMSIS/DAP/Firmware/Source/SW_DP.c
+
         )
 
 target_include_directories(debugprobe PRIVATE
-        CMSIS_5/CMSIS/DAP/Firmware/Include/
+        #CMSIS_5/CMSIS/DAP/Firmware/Include/
         CMSIS_5/CMSIS/Core/Include/
         include/
         )

@@ -71,5 +71,5 @@ CMakeFiles/debugprobe.dir/src/sw_dp_pio.c.obj: \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h \
  /home/teja/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
  /home/teja/pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
- /home/teja/pico/debugprobe/CMSIS_5/CMSIS/DAP/Firmware/Include/DAP.h \
+ /home/teja/pico/debugprobe/include/DAP.h \
  /home/teja/pico/debugprobe/src/probe.h
