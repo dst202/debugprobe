@@ -2,8 +2,8 @@ CMakeFiles/debugprobe.dir/src/probe_config.c.obj: \
  /home/teja/pico/debugprobe/src/probe_config.c \
  /home/teja/pico/debugprobe/src/probe_config.h \
  /home/teja/pico/debugprobe/freertos/include/FreeRTOS.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  /home/teja/pico/debugprobe/src/FreeRTOSConfig.h \
  /usr/include/newlib/assert.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
@@ -16,7 +16,7 @@ CMakeFiles/debugprobe.dir/src/probe_config.c.obj: \
  /home/teja/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
  /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  /home/teja/pico/debugprobe/build/generated/pico_base/pico/version.h \
  /home/teja/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
  /home/teja/pico/debugprobe/build/generated/pico_base/pico/config_autogen.h \
